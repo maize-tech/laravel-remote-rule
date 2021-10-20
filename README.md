@@ -1,3 +1,5 @@
+<p align="center"><img src="/art/socialcard.png" alt="Social Card of Laravel Remote Rule"></p>
+
 # Laravel Remote Rule
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/maize-tech/laravel-remote-rule.svg?style=flat-square)](https://packagist.org/packages/maize-tech/laravel-remote-rule)
