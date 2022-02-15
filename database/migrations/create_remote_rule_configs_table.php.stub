@@ -11,10 +11,10 @@ class CreateRemoteRuleConfigsTable extends Migration
         Schema::create('remote_rule_configs', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('url');
+            $table->text('url');
             $table->string('method');
-            $table->string('headers')->nullable();
-            $table->string('json')->nullable();
+            $table->text('headers')->nullable();
+            $table->text('json')->nullable();
             $table->unsignedInteger('timeout')->nullable();
             $table->timestamps();
         });
